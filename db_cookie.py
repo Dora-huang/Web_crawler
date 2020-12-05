@@ -75,8 +75,8 @@ def login_with_cookie(cookies_dict=None):
     print driver.get_cookies()
 
 if __name__ == '__main__':
-    usr_name = '13678959392'
-    usr_pwd = 'qwer1234'
+    usr_name = '136xxxxx'
+    usr_pwd = 'zzzzzz'
     # get_cookie(usr_name,usr_pwd)
     cookie1,cookie2 = get_cookie(usr_name,usr_pwd)
     save_cookie(cookie1,"cookie1.txt")
